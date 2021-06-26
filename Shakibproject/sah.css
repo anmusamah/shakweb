@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+*,*::after, *::before{
+	margin: 0;
+	padding: 0; 
+	box-sizing:border-box ;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/*---header-top-area start--*/
+.header-top-area{
+	background-color:#4F31A3 ;
+	
+} 
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.header-top-inner{
+	display: flex;
+	padding: 7px 0px;
+}
+.mail-phone{
+ width: 35%;
+ display: flex;
+margin-right: 15px;
+}
+.mail,.phone{
+	margin-right: 15px;
+	color: #E0DCED;
+
+}
+.mail i,.phone i{
+	margin: 5px;
+}
+.sociallink{
+	width: 60%;
+
+}
+.social ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.social ul li a{
+	color:#E0DCED ;
+	padding: 7px 15px;
+}
+.social ul li a:hover{
+	background-color:#2980b9;
+	transition: 5ms;
+}
+/*---header-top-area end--*/
+
+/*---header-area start--*/
+.header-area{
+	background-color: #653EB3;
+	padding: 25px 0px;
+}
+
+.header-area-logo{
+	width: 100%;
+}
+
+.header-logo-menu{
+	display: flex;
+	align-items: center ;
+
+}
+.logo{
+	width: 40%;
+	display: flex;
+
+	align-items: center;
+}
+.right-logo{
+	width: 40%;
+	display: flex;
+   justify-content: flex-end;
+
+	align-items: center;
+
+}
+.logo img{
+	width:20% ;
+	margin-right: 10px;
+}
+.logo h3{
+	font-weight: bold;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+
+}
+.menu{
+	width: 60%;
+
+}
+.menu ul{
+display: flex;
+padding: 20px ;
+align-items: center;
+
+
+}
+.menu ul li a{
+	color: #fff;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border:2px solid transparent;
+
+
+	
+}
+.menu ul li a:hover{
+	border-bottom-color:#7f8fa6;
+	border-style: solid;
+	transition: 10ms;
+	background-color:#4cd137 ;
+
+}
+
+
+.right-logo img{
+	width:20% ;
+	margin-right: 10px;
+}
+.right-logo h3{
+	font-weight: bold;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	}
+/*---header-area end--*/
+
+/*---banner--*/
+.slide-area{
+	background-color: green;
+}
+/*.slider{
+padding: 150px 0px;
+
+}
+*/
+
+.carousel-inner img{
+width: 100%;
+height: 100%;
+}
+.carousel-indicators li{
+border-radius: 50% ;
+width: 20px !important;
+height: 20px !important;
+
+}
+
+/*--about-section start--*/
+.about-section{
+	background-color: #ffbe76;
+	padding: 45px 20px;
+	box-shadow: 0px 2px 5px gray;
+
+}
+.about{
+	display: flex;
+	justify-content: space-between;
+
+}
+.about-left{
+	width: 20%;
+	display: flex;
+	justify-content: flex-start;
+}
+.about-left h1{
+	font-size: 30px;
+	color: #2c3e50;
+}
+
+.about-middle{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+
+}
+.about-middle p{
+ text-align: center;
+ color: black;
+ font-weight: bold;
+}
+
+.about-right{
+	width: 20%;
+	display: flex;
+	justify-content:flex-end;
+
+	
+}
+.about-right a{
+	color: white;
+	padding: 10px 25px;
+	border: 2px solid white;
+	background-color: #fd79a8;
+	font-weight: bold;
+}
+
+/*--about-section end--*/
+
+/*--Career-Saction--*/
+.career-saction{
+	background-color: #FAFAFA;
+	padding: 100px 20px;
+   box-shadow: 0px 2px 5px#81ecec;
+
+}
+.careerstatistics{
+	text-align: center;
+box-shadow: 0px 2px 5px#81ecec;
+}
+.careerstatistics h1{
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.careerstatistics p{
+	font-weight: bold;
+	color: #2B2B2B;
+	margin-bottom: 25px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.career{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	box-shadow:0px 2px 5px #ff7675; 
+	border-radius: 5px;
+
+}
+.career-content{
+	width: 30%;
+	background-color: #00cec9;
+	box-shadow: 0px 2px 5px gainsboro;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+
+	
+}
+.career-img img{
+	width:90%;
+	border-radius: 10px;
+	align-items: center;
+	margin-left: 15px;
+	margin-top: 10px;
+
+}
+.career-text{
+	padding: 10px 10px 20px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.career-text h4{
+ margin-bottom: 10px;
+ text-align: center;
+ font-weight: bold;
+}
+
+.career-text p{
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.career-text a{
+	margin-top: 25px;
+	padding: 10px 25px;
+	color: #fff;
+	background-color: #FB4381;
+	border-radius: 5px;
+
+}
+
+
+/*--Career-Saction--*/
+
+/*--about-section start--*/
+.contact-section{
+	background-color:#ea8685;
+	padding: 30px 0px;
+	box-shadow:  1px 5px gray;
+}
+.contact{
+	display: flex;
+	justify-content: center;
+}
+.contact-left{
+	width: 75%;
+	display: flex;
+	justify-content: flex-start;
+}
+.contact-left h1{
+	font-size: 25px;
+	color: #2c3e50;
+}
+
+
+
+.contact-right{
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.contact-right a{
+	color: white;
+	padding: 10px 25px;
+	border: 2px solid white;
+	background-color: #fd79a8;
+	font-weight: bold;
+}
+
+/*--contact-section end--*/ 
+
+/*--gallery-section--*/
+.gallery-area{
+	background-color: #FAFAFA;
+	padding-bottom: 10px;
+}
+.gallery-title{
+	padding: 40px 0px 25px;
+}
+.gallery-title h1{
+	font-weight: 400;
+}
+
+.gallery{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.gallery-content{
+	width: 30%;
+	background-color: #fff;
+	box-shadow: 0px 2px 5px gainsboro;
+	border-radius: 3px;
+	margin-bottom: 20px;
+
+	
+}
+.gallery-img img{
+	width: 80%;
+	border-radius: 10px;
+	align-items: center;
+}
+.gallery-text{
+	padding: 10px 10px 20px;
+}
+.gallery-text h4{
+ margin-bottom: 10px;
+ text-align: center;
+ font-weight: bold;
+}
+
+.gallery-text p{
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.gallery-text a{
+	margin-top: 25px;
+	padding: 10px 25px;
+	color: #fff;
+	background-color: #FB4381;
+	border-radius: 5px;
+
+}
+
+/*--subscribe area--*/
+.subscribe-section{
+	background-color:#f3a683;
+	padding: 40px 20px;
+	box-shadow:  1px 5px gray;
+}
+.subscribe{
+	display: flex;
+	justify-content: center;
+}
+.subscribe-left{
+	width: 75%;
+	display: flex;
+	justify-content: flex-start;
+}
+.subscribe-left h1{
+	font-size: 25px;
+	color: #2c3e50;
+}
+
+
+
+.subscribe-right{
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.subscribe-right a{
+	color: white;
+	padding: 10px 25px;
+	border: 2px solid white;
+	background-color: #fd79a8;
+	font-weight: bold;
+}
+
+
+/*--legendary comment--*/
+.legends-comments{
+	background-color: #FAFAFA;
+	padding: 50px 0px 40px;
+}
+.comments-title h1{
+ margin-bottom: 30px;
+ font-weight: bold;
+}
+.comments{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.comments-content{
+	width: 49%;
+	display: flex;
+	justify-content:space-between ;
+	box-shadow: 0 2px 4px gray;
+	margin-bottom: 20px;
+	background-color: #7efff5;
+	
+	padding: 10px;
+}
+.comments-img{
+	width: 30%;
+
+}
+.comments-img img{
+	width:100%;
+     clip-path: circle(30%);
+}
+.comments-text{
+	width: 100%;
+
+}
+
+.comments-text p{
+	line-height: 30px;
+	padding-bottom: 20px;
+	border-bottom:1px solid gray ;
+	font-weight: bold;
+}
+.comments-text h3{
+	padding:12px 0px ;
+}
+/*--legendary comment end--*/
+
+/*--footer--*/
+.footer-area{
+	background-color: #653EB3;
+	padding: 40px 0px 20px;
+}
+.footer-menu{
+	display: flex;
+	justify-content:space-between ;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #734DBB;
+	
+}
+.footer-left-menu{
+	width:80%;
+	display: flex;
+	justify-content: flex-start;
+    
+}
+.footer-left-menu ul{
+display: flex;
+
+
+align-items: center;
+
+
+}
+.footer-left-menu ul li a{
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border:2px solid transparent;
+	text-align: top;
+
+	
+}
+.footer-left-menu ul li:first-child a{
+	padding-left:0 ;
+}
+.footer-copyright{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px 10px;
+}
+.copyright-left{
+	width: 60%;
+}
+.copyright-right{
+	width:30% ;
+	display: flex;
+	justify-content: flex-end;
+}
+.copyright-left p,.copyright-right p{
+	color: #fff;
+}
